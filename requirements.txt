@@ -1,0 +1,7 @@
+customtkinter>=5.2.2
+Pillow>=10.0.0
+psutil>=5.9.8
+wmi>=1.5.1
+pywin32>=306
+fpdf2>=2.7.9
+pyinstaller>=6.10.0

@@ -1,0 +1,30 @@
+# Python cache e bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Build e empacotamento PyInstaller
+build/
+dist/
+*.spec
+
+# Arquivos temporários, logs e relatórios gerados localmente
+*.tmp
+*.log
+*.bak
+*.swp
+MoreiraSpec_*.pdf
+inventario_atual.csv
+historico_diario.csv
+
+# IDEs e Sistema Operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

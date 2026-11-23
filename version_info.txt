@@ -1,0 +1,34 @@
+# UTF-8
+# Metadados PE do Windows para MoreiraSpec.exe (reduz falsos positivos heuristicos)
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo(
+      [
+        StringTable(
+          u'041604B0',
+          [
+            StringStruct(u'CompanyName', u'Lucas Ramos Moreira'),
+            StringStruct(u'FileDescription', u'Moreira Spec - Diagnóstico de Hardware para Windows'),
+            StringStruct(u'FileVersion', u'1.0.0.0'),
+            StringStruct(u'InternalName', u'MoreiraSpec'),
+            StringStruct(u'LegalCopyright', u'Copyright (c) 2026 Lucas Ramos Moreira (Licença MIT)'),
+            StringStruct(u'OriginalFilename', u'MoreiraSpec.exe'),
+            StringStruct(u'ProductName', u'Moreira Spec'),
+            StringStruct(u'ProductVersion', u'1.0.0')
+          ]
+        )
+      ]
+    ),
+    VarFileInfo([VarStruct(u'Translation', [0x0416, 1200])])
+  ]
+)
